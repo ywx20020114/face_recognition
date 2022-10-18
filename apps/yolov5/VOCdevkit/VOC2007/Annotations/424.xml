@@ -1,0 +1,26 @@
+<annotation>
+	<folder>jpgimage</folder>
+	<filename>424.jpg</filename>
+	<path>E:\Workspace\PycharmProjects\yolov5-tf2-main\VOCdevkit\VOC2007\jpgimage\424.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1024</width>
+		<height>1434</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>person</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>300</xmin>
+			<ymin>222</ymin>
+			<xmax>802</xmax>
+			<ymax>861</ymax>
+		</bndbox>
+	</object>
+</annotation>

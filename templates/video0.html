@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Video Face Recognition</title>
+    <link href="/static/video0.css" rel="stylesheet">
+
+</head>
+<body>
+
+<div >
+    <img src="{{ url_for('video_feed0') }}" height="500">
+</div>
+<div>
+    <button class="button" id="show"  onclick="window.location.href ='/face_recognition/result'" >显示结果</button>
+
+</div>
+
+<div>
+    <input type='button' class='fot'  onclick="javascript:history.back(-1);" value='返回上一页'>
+</div>
+
+</body>
+
+</html>
+

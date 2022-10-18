@@ -1,0 +1,26 @@
+<annotation>
+	<folder>JPEGImages</folder>
+	<filename>303.jpg</filename>
+	<path>E:\Workspace\PycharmProjects\yolov5-tf2-main\VOCdevkit\VOC2007\JPEGImages\303.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>480</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>person</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>291</xmin>
+			<ymin>99</ymin>
+			<xmax>423</xmax>
+			<ymax>245</ymax>
+		</bndbox>
+	</object>
+</annotation>

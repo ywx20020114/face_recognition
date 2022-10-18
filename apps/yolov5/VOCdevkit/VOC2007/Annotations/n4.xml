@@ -1,0 +1,26 @@
+<annotation>
+	<folder>photo</folder>
+	<filename>n4.jpg</filename>
+	<path>E:\Workspace\PycharmProjects\yolov5-tf2-main\VOCdevkit\VOC2007\photo\n4.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>800</width>
+		<height>800</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>mask</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>250</xmin>
+			<ymin>137</ymin>
+			<xmax>610</xmax>
+			<ymax>534</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Video Face Get</title>
+    <link href="/static/video1.css" rel="stylesheet">
+
+</head>
+<body>
+<div >
+
+    <img src="{{ url_for('video_feed1') }}" height="500">
+            <h5 id="myname">{{name}}</h5>
+</div>
+
+<div>
+    <input type='button' class='fot'  onclick="javascript:history.back(-1);" value='返回上一页'>
+</div>
+
+</body>
+<script>
+var myname=document.getElementById("myname").innerHTML;
+ $.ajax({
+            url:'',
+            dataType:'json',
+            type:'POST',
+            async: true,
+            data: JSON.stringify(myname),
+            processData : false,
+            contentType : "application/json",
+            headers:{
+                id:token,
+            },
+            success: function(data){
+                if(data['status']==200){
+                    var r=confirm(data['msg']);
+                        if (r==true){
+                            location.reload();
+                        }
+                        else{
+                            location.reload();
+                        }
+                }else{
+                    alert(data['msg'])
+                }
+            }
+        })
+
+</script>
+</html>
+

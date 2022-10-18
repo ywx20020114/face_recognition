@@ -1,0 +1,30 @@
+
+* {
+    padding: 0;
+    margin: 0;
+}
+h1{
+    Text-align:center;
+}
+#div1 {
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+button {
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    background: #0023a8;
+    line-height: 50px;
+    text-align: center;
+    color: #fff;
+    box-shadow: 0 0 10px #999;
+    margin-right: 20px;
+}
+

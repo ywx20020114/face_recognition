@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link href="/static/get.css" rel="stylesheet" >
+    <script src="/static/get.js"></script>
+</head>
+<body>
+<div class="main">
+    <button id="btn_1"> 开始录入</button>
+    <div class="form_1">
+        <form action="/face_get/video_feed1" method="post">
+            <div class="input_1">
+                <div class="login">姓名录入</div>
+                <div class="close">X</div>
+            </div>
+            <hr>
+            <div class="input_1"><input type="text" name="name"  placeholder="&nbsp;请输入姓名"></div>
+            <div class="input_1"><input class="submit_1" id='btn' type="submit" value="提&nbsp;交"  ></div>
+        </form>
+    </div>
+</div>
+<div>
+    <input type='button' class='fot'  onclick="javascript:history.back(-1);" value='返回上一页'>
+</div>
+</body>
+
+</html>
+

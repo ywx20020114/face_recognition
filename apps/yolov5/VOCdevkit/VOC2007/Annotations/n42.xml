@@ -1,0 +1,26 @@
+<annotation>
+	<folder>photo</folder>
+	<filename>n42.jpg</filename>
+	<path>E:\Workspace\PycharmProjects\yolov5-tf2-main\VOCdevkit\VOC2007\photo\n42.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1080</width>
+		<height>721</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>person</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>271</xmin>
+			<ymin>43</ymin>
+			<xmax>420</xmax>
+			<ymax>238</ymax>
+		</bndbox>
+	</object>
+</annotation>

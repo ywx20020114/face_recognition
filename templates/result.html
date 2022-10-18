@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>result</title>
+    <link href="/static/result.css" rel="stylesheet">
+
+</head>
+<body>
+
+<div id="div1">
+    <img id="pic" src="{{ url_for('face') }}" height="200" >
+    <h5>{{name}}</h5>
+</div>
+
+
+<div id="div2">
+    <input type='button' class='fot' onclick="javascript:history.back(-1);" value='返回上一页'>
+    <button class="button" id="btn1"  onclick="window.location.href ='/'" >首页</button>
+</div>
+
+</body>
+</html>
